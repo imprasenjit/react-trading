@@ -1,0 +1,27 @@
+.dashboard-details{
+    background: #FFF;
+    padding:20px;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 20px;
+    .stoploss-span{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .stoploss-item{
+            height:28px;
+        }
+    }
+    .input-stoploss{
+        width: 9em;
+    }
+    .icon-button{
+        cursor: pointer;
+    }
+    .mtm-green{
+        color: #8bbb03;
+    }
+    .mtm-red{
+        color: #F96D35;
+    }
+}
